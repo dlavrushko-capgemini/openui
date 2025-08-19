@@ -9,7 +9,7 @@ i18n
 		resources: {
 			en: {
 				translation: {
-					'Chat Header': "Describe the UI you'd like to generate.",
+					'Chat Header': "Describe the n8n workflow you'd like to generate.",
 					'Pro Tip': 'Pro Tip: You can drag or paste a reference screenshot.'
 				}
 			},

@@ -534,7 +534,7 @@ export default function Prompt({
 					}}
 					placeholder={
 						isEditing
-							? 'Ask for changes to the current UI'
+							? 'Ask for another n8n workflow'
 							: screenshot
 								? 'Describe the screenshot you uploaded (Optional)'
 								: bufferedExample
