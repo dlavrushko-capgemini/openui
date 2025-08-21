@@ -67,6 +67,7 @@ app = FastAPI(
     title="OpenUI API",
     lifespan=lifespan,
     description="API for proxying LLM requests to different services",
+    root_path=config.OPENUI_ROOT_PATH,
 )
 
 openai = AsyncOpenAI(base_url=config.OPENAI_BASE_URL, api_key=config.OPENAI_API_KEY)
