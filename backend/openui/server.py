@@ -458,7 +458,8 @@ async def get_session(
 ):
     session_id = request.session.get("session_id")
     if session_id is None:
-        if config.ENV == config.Env.LOCAL:
+        if (config.ENV == config.Env.LOCAL
+            or config.ENV == config.Env.PROD): # Skip login in production
             # Give local users a session automatically
             session_id = session_store.generate_session_id()
             request.session["session_id"] = session_id
