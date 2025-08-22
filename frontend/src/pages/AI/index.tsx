@@ -32,7 +32,7 @@ export default function LayoutWithSidebar({
 		<div className='mobile-safe-container flex h-screen w-full flex-col'>
 			<Head
 				title={
-					curItem.name ? `${curItem.emoji} ${curItem.name}` : 'Create a new UI'
+					curItem.name ? `${curItem.emoji} ${curItem.name}` : 'Create a new Workflow'
 				}
 			/>
 			<NavBar />

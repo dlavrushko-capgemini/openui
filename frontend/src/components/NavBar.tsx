@@ -135,7 +135,7 @@ export default function NavBar() {
 					className='h-8 pl-[0.35rem] pr-3 dark:text-white'
 				>
 					<PlusIcon className='mr-1 h-5 w-5' />
-					New UI
+					New Workflow
 				</Button>
 				<Avatar className='ml-6 mr-0 hidden rounded-full sm:flex'>
 					<AvatarImage src={avatarURL} />

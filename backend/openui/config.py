@@ -67,3 +67,5 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 LITELLM_API_KEY = os.getenv("LITELLM_API_KEY", os.getenv("LITELLM_MASTER_KEY"))
 LITELLM_BASE_URL = os.getenv("LITELLM_BASE_URL", "http://0.0.0.0:4000")
 PORT = int(os.getenv("PORT", 7878))
+
+OPENUI_ROOT_PATH = os.getenv("OPENUI_ROOT_PATH", "")
